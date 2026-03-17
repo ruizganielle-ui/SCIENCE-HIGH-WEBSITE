@@ -1,0 +1,156 @@
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, sans-serif;
+}
+
+/* BODY */
+
+body{
+background:#fff6f8;
+color:#0c0b0b;
+line-height:1.6;
+}
+
+/* HEADER */
+
+header{
+background:#c62a6b;
+padding:20px 10%;
+display:flex;
+align-items:center;
+justify-content:space-between;
+}
+
+header h1{
+font-size:20px;
+color:#8a3c5b;
+}
+
+.logo{
+height:55px;
+}
+
+/* NAVIGATION */
+
+nav a{
+margin-left:20px;
+text-decoration:none;
+color:#ffd0e2;
+font-weight:bold;
+}
+
+nav a:hover{
+color:#d46a92;
+}
+
+/* HERO */
+
+.hero{
+background:linear-gradient(rgba(255, 96, 123, 0.6), rgba(255,96,123,0.6)),
+url("https://images.unsplash.com/photo-1580582932707-520aed937b7b");
+background-size:cover;
+background-position:center;
+height:350px;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+color:#6b2c4a;
+padding:20px;
+}
+
+.hero h2{
+font-size:40px;
+margin-bottom:10px;
+}
+
+.hero p{
+font-size:18px;
+}
+
+/* MAIN */
+
+.container{
+width:90%;
+max-width:1100px;
+margin:auto;
+padding:40px 0;
+}
+
+/* CARDS */
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.card{
+background:white;
+padding:20px;
+border-radius:10px;
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-5px);
+}
+
+/* SECTION TITLES */
+
+.section-title{
+margin-bottom:20px;
+color:#8a3c5b;
+}
+
+/* MAP */
+
+iframe{
+width:100%;
+height:350px;
+border:none;
+border-radius:10px;
+}
+
+/* FOOTER */
+
+footer{
+background:#f8c8dc;
+text-align:center;
+padding:15px;
+margin-top:40px;
+color:#6b2c4a;
+}
+
+</style>
+<header>
+<nav>
+<a href="index.html">Home</a>
+<a href="academics.html">Academics</a>
+<a href="clubs.html">Clubs</a>
+<a href="batches.html">Batches</a>
+<a href="achievements.html">Achievments</a>
+<a href="developers.html">Developers</a>
+<a href="contactus.html">Developers</a>
+</nav>
+</header>
+
+<!-- CONTACT -->
+
+<section class="container" id="contact">
+
+<h2 class="section-title">Contact Us</h2>
+
+<p>Email: example@email.com</p>
+<p>Phone: (000) 000-0000</p>
+<p>Location: Dumaguete City, Negros Oriental</p>
+
+<br>
+
+<iframe src="https://maps.google.com/maps?q=dumaguete%20science%20high%20school&t=&z=15&ie=UTF8&iwloc=&output=embed"></iframe>

@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Batches – RTPM Dumaguete Science High School</title>
+
+<style>
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:Arial, sans-serif;
+}
+
+/* BODY */
+body{
+  background:#fff6f8;
+  color:#333;
+  line-height:1.6;
+}
+
+/* HEADER */
+header{
+  background:#c62a6b;
+  padding:20px 10%;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  flex-wrap:wrap;
+}
+
+header h1{
+  font-size:20px;
+  color:#fff;
+}
+
+.logo{
+  height:55px;
+}
+
+/* NAVIGATION */
+nav a{
+  margin-left:20px;
+  text-decoration:none;
+  color:white;
+  font-weight:bold;
+}
+
+nav a:hover{
+  color:#ffd1e0;
+}
+
+/* HERO */
+.hero{
+  background:linear-gradient(rgb(255, 0, 128), rgb(249, 43, 143)), url('images/hero-bg.jpg');
+  background-size:cover;
+  background-position:center;
+  height:350px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  color:white;
+  padding:20px;
+}
+
+.hero h2{
+  font-size:40px;
+  margin-bottom:10px;
+}
+
+.hero p{
+  font-size:18px;
+}
+
+/* MAIN */
+.container{
+  width:90%;
+  max-width:1100px;
+  margin:auto;
+  padding:40px 0;
+}
+
+/* GRID AND CARDS */
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+  gap:20px;
+}
+
+.card{
+  background:white;
+  padding:15px;
+  border-radius:10px;
+  box-shadow:0 4px 10px rgba(0,0,0,0.1);
+  transition:0.3s;
+  text-align:center;
+}
+
+.card:hover{
+  transform:translateY(-5px);
+}
+
+.card img{
+  width:100%;
+  height:200px;
+  object-fit:cover;
+  border-radius:10px;
+}
+
+/* SECTION TITLES */
+.section-title{
+  margin-bottom:20px;
+  color:#c62a6b;
+  text-align:center;
+  font-size:28px;
+}
+
+/* FOOTER */
+footer{
+  background:#f8c8dc;
+  text-align:center;
+  padding:15px;
+  margin-top:40px;
+  color:#ff2890;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<img class="logo" src="images/SCIENCE HIGH LOGO.jpg" alt="RTPM Logo">
+<h1>RTPM – Dumaguete Science High School</h1>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="faculty.html">Faculty</a>
+<a href="clubs.html">Clubs</a>
+<a href="batches.html">Batches</a>
+<a href="achievements.html">Achievements</a>
+<a href="developers.html">Developers</a>
+</nav>
+</header>
+
+<section class="hero">
+<div class="hero-text">
+<h2>Our School Batches</h2>
+<p>Meet the talented students of RTPM across different grade levels</p>
+</div>
+</section>
+
+<section class="container">
+<h2 class="section-title">Batches</h2>
+
+<div class="grid">
+  <div class="card">
+    <img src="images/Experimenters.jpg" alt="Batch Experimenters">
+    <h3>Experimenters</h3>
+  </div>
+
+  <div class="card">
+    <img src="images/Innovators.jpg" alt="Batch Innovators">
+    <h3>Innovators</h3>
+  </div>
+
+  <div class="card">
+    <img src="images/Explorers.jpg" alt="Batch Explorers">
+    <h3>Explorers</h3>
+  </div>
+
+  <div class="card">
+    <img src="images/Probers.jpg" alt="Batch Probers">
+    <h3>Probers</h3>
+  </div>
+
+  <div class="card">
+    <img src="images/Seekers.jpg" alt="Batch Seekers">
+    <h3>Seekers</h3>
+  </div>
+
+  <div class="card">
+    <img src="images/Analysts.jpg" alt="Batch Analysts">
+    <h3>Analysts</h3>
+  </div>
+</div>
+
+</section>
+
+<footer>
+<p>© 2026 RTPM – Dumaguete Science High School</p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,163 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body */
+body {
+    background: #fff6f8;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    
+    background: #c62a6b;
+    padding: 20px 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header h1 {
+    font-size: 20px;
+    color: #fff;
+}
+
+.logo {
+    height: 55px;
+}
+
+/* Navigation */
+nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #f4b6c2;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(rgba(255, 96, 123, 0.6), rgba(255,96,123,0.6)),
+                url("../images/hero.jpg") no-repeat center center;
+    background-size: cover;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #6b2c4a;
+    padding: 20px;
+}
+
+.hero h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+}
+
+/* Container */
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+    padding: 40px 0;
+}
+
+/* Grid Layout */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+/* Cards */
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Section Titles */
+.section-title {
+    margin-bottom: 20px;
+    color: #8a3c5b;
+}
+
+/* Clubs Pages */
+.click-card {
+    display: block;
+    padding: 20px;
+    background: #ed3b8b;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: 0.3s;
+    text-align: center;
+}
+
+.click-card:hover {
+    background: #e83b89;
+    transform: scale(1.05);
+}
+
+.info-page {
+    display: none;
+    padding: 40px;
+}
+
+.info-box {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    width: 60%;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.info-box img {
+    width: 50%;
+    max-height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.back-btn {
+    display: inline-block;
+    margin-top: 20px;
+    background: #d80e88;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    background: #f8c8dc;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+    color: #6b2c4a;
+}
